@@ -11,6 +11,13 @@ body{
 
 }
 
+/* shared style 
+
+color: #E95A08 orange
+color: rgba(0, 0, 0, 0.5); paragraph
+
+*/
+
 /* site logo and nav section */
 .sitenav{
     display: flex;
@@ -54,6 +61,10 @@ body{
     text-decoration: none;
     color: #252432;
 }
+.cartlogo{
+    padding-right: 5px;
+    opacity: 0.8;
+}
 
 
 #nav-link{
@@ -70,3 +81,94 @@ body{
 }
 /* nav end */
 
+/* banner section start */
+
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.bannerleft{
+    align-content: center;
+    width: 60%;
+    padding-top: 20px;
+}
+.bannerleft h1{
+    font-size: 65px;
+    color: #E95A08;
+    padding-bottom: 10px;
+}
+.singletext{
+    color: black;
+
+}
+.bannerleft p{
+    color: rgba(0, 0, 0, 0.5);
+}
+.bannerright img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* media quary */
+@media screen and (max-width: 576px){
+    
+    body{
+        max-width: 100%;
+    }
+
+    .sitenav{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .navbar{
+        display: none;
+
+    }
+    .logo img{
+    width: 50%;
+    }
+
+    /* banner section */
+
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+
+    .bannerleft{
+        width: 100%;
+        padding-left: 30px;
+    }
+
+     .bannerright{
+        width: 100%;
+     }
+     .bannerright img{
+        width: 100%;
+     }
+
+     .banner-container{
+        margin-top: 10px;
+     }
+
+     .bannerleft h1{
+    font-size: 24px;
+
+}
+
+
+
+
+}
