@@ -231,6 +231,96 @@ color: rgba(0, 0, 0, 0.5); paragraph
 }
 
 
+/* grid layout section--------------------------------- */
+
+.upperheading{
+    text-align: center;
+    padding-bottom: 80px;
+}
+.upperheading h1{
+    color: #E95A08;
+    font-size: 50px;
+}
+.upperheading p{
+    font: 24px;
+    color:rgba(0, 0, 0, 0.5) ;
+    padding: 10px 170px;
+
+}
+
+/* grid layout --------------------------------------------- */
+
+.containergrid{
+    display: flex;
+    padding-bottom: 50px;
+
+}
+.doubleportion{
+    height: 100px;
+    width: 50%;
+    margin-right: 25px;
+
+}
+.halfportion{
+    height: 200px;
+        width: 100%;
+        background-image: url(./assets/deal-bloom.png);
+        margin-bottom: 20px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/deal-bloom.png');
+        border-radius: 20px;
+        text-align: center;
+
+
+}
+.secondhalf{
+    height: 200px;
+        width: 100%;
+        background-image: url(./assets/deal-ana.png);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/deal-ana.png');
+        border-radius: 20px;
+        text-align: center;
+
+}
+.rightpart{
+    height: 420px;
+        width: 100%;
+    background-size: cover;
+    background-position: center;
+        background-image: url(./assets/deal-zabo.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/deal-zabo.png');
+    border-radius: 20px;
+    text-align: center;
+
+}
+.halfportion h1{
+    font-size: 20px;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
+.secondhalf h1{
+    font-size: 20px;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
+.halfportion a{
+    color: white;
+}
+.secondhalf a{
+    color: white;
+}
+
+.rightpart h1{
+    font-size: 40px;
+    color: white;
+    padding-top: 180px;
+    padding-bottom: 10px;
+}
+.rightpart a{
+    color: white;
+    font-size: 22px;
+}
 
 
 
@@ -340,7 +430,51 @@ color: rgba(0, 0, 0, 0.5); paragraph
 
 }
 
+    /* grid layout responsive-------------------- */
 
+    .upperheading h1{
+    font-size: 24px;
+}
+    .upperheading p{
+    font: 14px;
+    padding: 10px 60px;
+
+}
+.containergrid{
+    display: block;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.doubleportion{
+    width: 100%;
+}
+.halfportion{
+    width: 100%;
+    background-size: cover;
+}
+.halfportion img{
+ 
+}
+.secondhalf{
+    background-size: cover;
+
+}
+
+.rightpart{
+    margin-top: 340px;
+    height: 200px;
+}
+
+.rightpart h1{
+    font-size: 20px ;
+    padding: 0;
+    padding-top: 70px;
+}
+.rightpart a{
+    font-size: 16px;
+}
 
 
 }
