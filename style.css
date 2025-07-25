@@ -198,7 +198,7 @@ color: rgba(0, 0, 0, 0.5); paragraph
 
 }
 .bannerimg img{
-    width: 100%;
+    width: 93%;
     height: 650px;
 }
 
@@ -322,7 +322,33 @@ color: rgba(0, 0, 0, 0.5); paragraph
     font-size: 22px;
 }
 
-
+/* newslatter section--------------------------------------------------------- */
+.newslatter{
+    text-align: center;
+    background-image: url(./assets/news-letter-bg.png);
+    min-height: 500px;
+    background-size: cover;
+    width: 1270px;
+    margin-left: -140px;
+} 
+.newslatter h1{
+    font-size: 50px;
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 15px;
+} 
+.newsform button{
+    color: white;
+    background-color: #E95A08;
+    border: none;
+    padding: 13.2px 35px;
+    margin-left: -5px;
+}
+.newsform input{
+    padding-left: 20px;
+    width: 50%;
+    height: 40px;
+}
 
 
 
@@ -474,6 +500,27 @@ color: rgba(0, 0, 0, 0.5); paragraph
 }
 .rightpart a{
     font-size: 16px;
+}
+
+/* newslatter section responsive ----------------*/
+
+.newslatter{
+    min-height: 400px;
+    background-size: cover;
+    width: 100%;
+    margin-left: 0px;
+    padding-right: -100px;
+}
+
+.newslatter h1{
+    font-size: 20px;
+    padding-top: 180px;
+}
+
+.newsform input{
+
+    width: 35%; */
+
 }
 
 
