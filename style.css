@@ -190,25 +190,26 @@ color: rgba(0, 0, 0, 0.5); paragraph
 }
 .bannerlike{
     position: relative;
-    width: 60%;
+    width: 100%;
 
 }
 .bannerimg{
+    
 
 }
 .bannerimg img{
     width: 100%;
-    /* height: 650px; */
+    height: 650px;
 }
 
 .bannerlikeright{
-    width: 50%;
+    width: 90%;
 }
 .bannerlikeright h1{
     font-size: 50px;
 }
 .bannerlikeright ul{
-    padding-left: 50px;
+    padding-left: 40px;
 }
 .bannerlikeright ul li{
     font-size: 24px;
@@ -218,10 +219,14 @@ color: rgba(0, 0, 0, 0.5); paragraph
 .badge{
     position: absolute;
         top: 0;
-        right: 0;
+        left: 350px;
+        right: -200px;
+        margin-top: -80px;
+        
 } 
 .badge img{
-    width: 50%;
+    width: 70%;
+    /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); */
 
 }
 
@@ -308,6 +313,33 @@ color: rgba(0, 0, 0, 0.5); paragraph
     padding-right: 20px;
 
 }
+        /* badge section ---------------------------------------------- */
+    .badge{
+        display: none;
+    }
+    .bannersimilar{
+        display: block;
+    }
+    .bannerimg img{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .bannerlikeright{
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+    .bannerlikeright h1{
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+    .bannerlikeright ul li{
+    font-size: 14px;
+    padding-bottom: 15px;
+
+}
+
 
 
 
